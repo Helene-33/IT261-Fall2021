@@ -1,0 +1,155 @@
+/*Styles for my portal page*/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background:lavenderblush;
+}
+
+.welcome {
+    height:120px;
+    width:100%;
+    background:lavenderblush;
+    float:left;
+}
+
+.welcome h1 {
+    margin-top:30px;
+    text-align: center;
+}
+
+#logo {
+    float:left;
+    width: 90px;
+    margin:20px;
+    margin-left:50px;
+}
+
+header {
+    overflow:hidden;
+    background:lightseagreen;
+}
+
+.header-inner {
+    max-width:1200px;
+    margin:20px;
+}
+
+nav {
+    height:100px;
+    margin-top: 80px;
+    margin-bottom:-10px;
+    text-align:center;
+}
+
+nav ul {
+    height:100px;
+    font-size:22px;
+    display:inline-block;
+    margin-top:20px;
+    max-width:1200px;
+}
+
+nav li {
+    float:left;
+    list-style-type: none;
+    margin-left:30px;
+}
+
+nav a {
+    text-decoration:none;
+    color:whitesmoke;
+}
+ 
+main {
+    width:68%;
+    float: left;
+    margin:50px;
+}
+
+main h2 {
+    font-size:30px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+main p {
+    line-height:25px;
+    font-size:20px;
+    margin-left:20px;
+}
+
+main h3 {
+    font-size:25px;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+main img {
+    float:left;
+    width:90%;
+    margin: 20px auto;
+}
+
+aside {
+    width:21%;
+    float: right;
+    background:#FFE7EA;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-right:50px
+}
+
+#profilepic {
+    width: 200px;
+	height: 200px;
+	border-radius: 50%;
+    margin:30px;
+}
+
+aside h2 {
+    margin-top:-10px;
+    margin-left:5px;
+    line-height:30px;
+}
+
+aside h3 {
+    margin-left: 20px;
+}
+
+aside ul {
+    list-style: none;
+    line-height:20px;
+    margin-left:30px;
+}
+
+aside li a {
+    text-decoration:none;
+}
+
+footer {
+    height:50px;
+    line-height:50px;
+    border-top:1px dotted #333;
+    clear:both;
+}
+
+footer ul {
+    float:left;
+    margin-left:150px;
+}
+
+footer li {
+    float:left;
+    list-style-type: none;
+    margin-left:60px;
+}
+
+footer a {
+    text-decoration: none;
+}
