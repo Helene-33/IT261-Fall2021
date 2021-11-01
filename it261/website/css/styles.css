@@ -96,3 +96,92 @@ footer li {
     list-style-type: none;
     margin-left:20px;
 }
+
+/* special daily page */
+img.daily {
+    width: 340px;
+    margin: 20px;
+}
+
+p.daily{
+    margin: 10px;
+    font-size: 14px;
+    font-family: Verdana, Helvetica, sans-serif;
+    line-height: 28px;
+}
+
+h2.daily, h3.daily {
+    margin: 10px;
+}
+
+li.daily {
+    list-style-type: none;
+    margin-left:30px;
+}
+
+a.daily {
+    text-decoration:none;
+    font-size: 14px;
+    font-family: Verdana, Helvetica, sans-serif;
+    line-height: 28px;
+}
+
+/* calculator page */
+form {
+    width:400px;
+    margin:30px auto;
+}
+
+label {
+    display:block;
+    margin-bottom:5px;
+}
+
+fieldset {
+    padding:8px;
+    border:1px solid black;
+}
+
+.boxcalc {
+    width:400px;
+    margin:10px auto;
+    border:1px solid black;
+    padding:8px;
+}
+
+input {
+    margin-bottom:10px;
+}
+
+input[type=radio] {
+    margin-right:5px;
+}
+
+form ul {
+    margin-left:10px;
+    margin-bottom:10px;
+    list-style-type:none;
+}
+
+.error {
+    display:block;
+    color:red;
+    text-align:center;
+    font-size:1.4em;
+    margin:15px auto;
+    padding:10px;
+    width:400px;
+    border:1px solid black;
+}
+
+.h2calc {
+    color:red;
+    text-align:center;
+    font-size:2em;
+
+}
+
+select {
+    display:block;
+    margin-bottom:10px;
+}

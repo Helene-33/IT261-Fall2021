@@ -5,6 +5,7 @@ define('THIS_PAGE', basename($_SERVER['PHP_SELF']));
 $nav['index.php'] = 'Home';
 $nav['about.php'] = 'About';
 $nav['daily.php'] = 'Daily';
+$nav['calculator-days-errors-sticky.php'] = 'Calculator';
 $nav['project.php'] = 'Project';
 $nav['contact.php'] = 'Contact';
 $nav['gallery.php'] = 'Gallery';
@@ -26,6 +27,12 @@ switch(THIS_PAGE) {
     $title = 'Daily page of our IT 261 Website';
     $body = 'daily inner';
     $headline = 'Welcome to our Daily page!';
+    break;
+
+    case 'calculator-days-errors-sticky.php';
+    $title = 'Calculator page of our IT 261 Website';
+    $body = 'calculator inner';
+    $headline = 'Welcome to our Calculator page!';
     break;
     
     case 'project.php';
