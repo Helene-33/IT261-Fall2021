@@ -1,4 +1,5 @@
 <?php
+include('config.php');
 include('includes/header.php'); ?>
 
 <!--LOGIC: have to add an average speed?? YES!!!

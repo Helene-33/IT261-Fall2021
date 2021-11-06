@@ -82,6 +82,12 @@
         <li><a href="weeks/week5/currency3.php">currency3.php</a></li>
         <li><a href="weeks/week5/currency4.php">currency4.php</a></li>
     </ul>
+    <h3>Week 6:</h3>
+    <ul>
+        <li><a href="weeks/week6/form1.php">form1.php</a></li>
+        <li><a href="weeks/week6/function.php">function.php</a></li>
+        <li><a href="weeks/week6/implode.php">implode.php</a></li>
+    </ul>
 </aside>
 
 <footer>
