@@ -88,6 +88,12 @@
         <li><a href="weeks/week6/function.php">function.php</a></li>
         <li><a href="weeks/week6/implode.php">implode.php</a></li>
     </ul>
+    <h3>Week 7:</h3>
+    <ul>
+        <li><a href="weeks/week7/random.php">random.php</a></li>
+        <li><a href="weeks/week7/strings.php">strings.php</a></li>
+        <li><a href="weeks/week7/pictures.php">pictures.php</a></li>
+    </ul>
 </aside>
 
 <footer>

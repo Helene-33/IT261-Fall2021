@@ -3,8 +3,18 @@ include('config.php');
 include('includes/header.php'); ?>
 
     <div id="wrapper">
-    <div id="hero">
+    <div id="herorandom">
+<?php
+echo '<img style="width:60%; display:block; margin:auto;" src="images/'.$random_pics.'" alt="'.$photos[$i].'">';
+?>
+<h2>
+<pre>
+<br>
+function random_pics($photos) {
 
+}
+</pre>
+</h2>
     </div> <!--end hero-->
 <main>
     <h1><?php echo $headline; ?></h1>

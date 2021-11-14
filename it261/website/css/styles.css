@@ -186,3 +186,98 @@ select {
     display:block;
     margin-bottom:10px;
 }
+
+/* contact page */
+main.contact {
+    width:61.70%;
+    height:auto;
+    background:darkseagreen;
+    float: left;
+    margin-bottom:20px;
+    padding: 10px;
+}
+
+aside.contact {
+    width:36.17%;
+    float: right;
+    height:auto;
+    background:cadetblue;
+}
+
+img.contact {
+    width: 250px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+    margin-bottom:30px;
+}
+
+h3.contact {
+    text-align:center;
+    color:darkolivegreen;
+    font-style: oblique;
+    font-size: 25px;
+    margin: 10px;
+}
+
+h2.contact {
+    text-align:center;
+    color:darkgreen;
+    font-size: 23px;
+    margin: 20px auto;
+}
+
+p.contact {
+    font-size:1.2em;
+    line-height: 22px;
+    margin:10px;
+}
+
+.contacterror {
+    display:block;
+    color:darkolivegreen;
+    font-size:1.1em;
+    margin:5px auto;
+    padding:7px;
+    padding-bottom:15px;
+    width:400px;
+    font-style: italic;
+}
+
+.contactform {
+    padding:7px;
+    border:2px solid black;
+    font-size:1.1em;
+    width:95%;
+}
+
+.contactfield {
+    border: none;
+}
+
+input[type=submit] {
+    font-size: 20px;
+    color:#2e5677;
+    display:block;
+    margin:-20px auto;
+    padding:5px 15px; 
+    background-color:lightsalmon; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.reset {
+    display:block;
+    margin:20px auto;
+    font-size: 20px;
+}
+
+/*radom pics index*/
+#herorandom {
+    height:auto;
+    margin-bottom: 20px;
+    background:lightgoldenrodyellow;
+}

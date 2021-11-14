@@ -3,17 +3,22 @@ include('config.php');
 include('includes/header.php'); ?>
 
 <div id="wrapper">
-    <div id="hero">
-
-    </div> <!--end hero-->
-<main>
+<main class="contact">
     <h1><?php echo $headline; ?></h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class="contact">So many species need our help and support. <br> Are you interested
+        in sponsoring an animal from our endangered species association? <br>
+    Would you like to have more information about how symbolic species adoptions
+works? <br> If so, please fill out this form and we will contact you soon! </p>
+    <h2 class="contact">Thank you for your interest!</h2>
+    
+<?php
+include('includes/form.php'); ?>
 
 </main>
 
-<aside>
-
+<aside class="contact">
+    <h3 class="contact">Thank you for your support!</h3>
+    <img class="contact" src = "images/happykoala.jpg" alt = "Happy Koala!">
 </aside>
 
 <?php

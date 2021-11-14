@@ -127,10 +127,7 @@ $headers = array(
 mail($to, $subject, $body, $headers);
 header('Location: thx.php');
 
-
-
 }
-
 
 
 } //end if REQUEST_METHOD
