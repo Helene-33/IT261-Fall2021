@@ -64,6 +64,8 @@ nav li {
 nav a {
     text-decoration:none;
     color:whitesmoke;
+    letter-spacing: 5px;
+    margin-left:6px;
 }
  
 main {
@@ -74,26 +76,32 @@ main {
 
 main h2 {
     font-size:30px;
-    margin-left:10px;
-    margin-bottom:10px;
+    text-align: center;
+    margin:25px auto;
+    color:darkslategray;
+
 }
 
 main p {
     line-height:25px;
     font-size:20px;
     margin-left:20px;
+    line-height:30px;
 }
 
 main h3 {
     font-size:25px;
-    margin-left:10px;
-    margin-top:10px;
+    text-align: center;
+    margin:30px auto;
+    color:darkslategray;
+    border:2px solid black;
 }
 
 main img {
-    float:left;
-    width:90%;
-    margin: 20px auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
 }
 
 aside {
@@ -120,6 +128,7 @@ aside h2 {
 
 aside h3 {
     margin-left: 20px;
+    margin-top:18px;
 }
 
 aside ul {

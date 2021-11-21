@@ -15,7 +15,7 @@ echo '<br>';
 echo $dice2;
 echo '<br>';
 
-// if I throw a doucle, I will win !!!
+// if I throw a double, I will win !!!
 
 if($dice1 == $dice2) {
 echo 'I won! :)';

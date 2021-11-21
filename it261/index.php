@@ -22,8 +22,8 @@
                     <li><a href="website/daily.php">Switch</a></li>
                     <li><a href="website/adder.php">Troubleshoot - Adder</a></li>
                     <li><a href="website/calculator-days-errors-sticky.php">Calculator</a></li>
-                    <li><a href="">Email</a></li>
-                    <li><a href="">Gallery</a></li>
+                    <li><a href="website/contact.php">Email</a></li>
+                    <li><a href="website/gallery.php">Gallery</a></li>
                     <li><a href="">Database</a></li>
                 </ul>
             </nav>
@@ -45,6 +45,8 @@
     <h3>Homework 1 - MAMP and Error display</h3>
     <img id="mampscreenshot" src="images/mampscreencapture.png" alt="mampscreenshot">
     <img id="errorscreenshot" src="images/errorscreencapture.png" alt="errorscreenshot">
+    <h3>Adminer screenshot</h3>
+    <img id="adminerscreeshot" src="images/adminer.png" alt="adminerscreenshoot">
 </main>
 
 <aside>
@@ -93,6 +95,13 @@
         <li><a href="weeks/week7/random.php">random.php</a></li>
         <li><a href="weeks/week7/strings.php">strings.php</a></li>
         <li><a href="weeks/week7/pictures.php">pictures.php</a></li>
+    </ul>
+    <h3>Week 8:</h3>
+    <ul>
+        <li><a href="weeks/week8/people.php">people.php</a></li>
+        <li><a href="weeks/week8/people-view.php">people-view.php</a></li>
+        <li><a href="weeks/week8/config.php">config.php</a></li>
+        <li><a href="weeks/week8/credentials.php">credentials.php</a></li>
     </ul>
 </aside>
 

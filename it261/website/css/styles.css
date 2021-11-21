@@ -281,3 +281,62 @@ input[type=submit] {
     margin-bottom: 20px;
     background:lightgoldenrodyellow;
 }
+
+
+/*table-gallery*/
+#herotable {
+    height:auto;
+    margin-bottom: 20px;
+    background:rgb(44, 43, 43);
+}
+
+h3.harrypotter {
+    color:darkgoldenrod;
+    font-size:2.5em;
+    font-family: 'Harry Potter', sans-serif;
+    text-align:center;
+    letter-spacing: 5px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+main.gallery {
+    background-color:#D3D3D3;
+    width:1240px;
+    display:block;
+    margin-left:-50px;
+    
+}
+
+table.harrypotter {
+    width:96%;
+    display:block;
+    margin:35px auto;
+}
+
+table.harrypotter td {
+    text-align: left;
+    font-size:18px;
+    line-height:20px;
+    border: 1.3px solid black;
+}
+
+table.harrypotter th {
+    text-align: center;
+    font-size:30px;
+    color: #996515;
+    border: 1.3px solid black;
+}
+
+table.harrypotter p {
+    margin:10px;
+    width: 90%;
+}
+
+
+table.harrypotter img {
+    display: block;
+    margin:20px auto;
+    width: 100%;
+}
+
