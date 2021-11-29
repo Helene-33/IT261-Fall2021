@@ -1,5 +1,10 @@
 <?php
 
+ob_start();  // prevents header errors before reading the whole page!
+define('DEBUG', 'TRUE');  // We want to see our errors
+
+include('credentials.php');
+
 define('THIS_PAGE', basename($_SERVER['PHP_SELF']));
 
 $nav['index.php'] = 'Home';
@@ -53,6 +58,12 @@ switch(THIS_PAGE) {
     $title = 'Project page of our IT 261 Website';
     $body = 'project inner';
     $headline = 'Welcome to our Project page for our IT 261 Website!';
+    break;
+
+    case 'project-view.php';
+    $title = 'Ballet page of our IT 261 Website';
+    $body = 'project inner';
+    $headline = 'Here is more information!';
     break;
     
     case 'contact.php';
@@ -160,7 +171,7 @@ if(isset(
     $_POST['privacy']
     )){
     
-$to = 'szemeo@mystudentswa.com';
+$to = 'heleneliobard@hotmail.com';
 $subject = 'Test Email,' .date('m/d/y');
 $body = '
     This form is from: '.$name.' '.PHP_EOL.'
@@ -205,12 +216,20 @@ $i = rand(0, 4);
 $random_pics = ''.$photos[$i].'.jpg';
 
 
-
-
-
-
-
-
+function myError($myFile, $myLine, $errorMsg)
+{
+if(defined('DEBUG') && DEBUG)
+{
+ echo 'Error in file: <b> '.$myFile.' </b> on line: <b> '.$myLine.' </b>';
+      echo 'Error message: <b> '.$errorMsg.'</b>';
+      die();
+  }  else {
+      echo ' Houston, we have a problem!';
+      die();
+  }
+    
+    
+}
 
 
 

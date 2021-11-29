@@ -116,7 +116,7 @@
 <span class="contacterror"><?php echo $privacy_Err;?></span>
 
 <input type="submit" value="Send it">
-<p class="reset"><a href="">Reset</p>
+<p class="reset"><a href="">Reset</a></p>
 
 </fieldset>
 </form>

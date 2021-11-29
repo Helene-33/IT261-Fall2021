@@ -340,3 +340,115 @@ table.harrypotter img {
     width: 100%;
 }
 
+
+/* project page */
+#ballet {
+    width:95%;
+    height:auto;
+    background:#2a613c;
+    margin:20px auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+h1.ballet {
+    color:rgb(190, 146, 33);
+    text-align: center;
+    font-size:30px;
+    letter-spacing: 4px;
+}
+
+h2.ballet {
+    color:rgb(190, 146, 33);
+    text-align: center;
+    font-size:25px;
+    margin:15px auto;
+}
+
+p.ballet {
+    color: beige;
+    font-size: 18px;
+    text-align:center;
+    line-height: 30px;
+    margin:65px auto;
+}
+
+li.ballet {
+    color: beige;
+    font-size: 18px;
+    margin-left:55px;
+    margin-bottom:10px;
+    margin-top:10px;
+    list-style:none;
+}
+
+li.balletp {
+    color: beige;
+    font-size: 20px;
+    list-style:none;
+    margin: 15px auto;
+    text-align: center;
+}
+
+hr.ballet {
+    border-top:2px dashed red;
+}
+
+/*project-view page*/
+#balletpage {
+    width: 70%;
+    height:auto;
+    float:left;
+    background:#2a613c;
+    margin:20px;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+aside.balletpage {
+    width: 20%;
+    height:auto;
+    float:right;
+    background: beige;
+    margin:20px;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+h1.balletpage {
+    color:rgb(190, 146, 33);
+    text-align: center;
+    font-size:30px;
+    letter-spacing: 4px;
+    margin-bottom:30px;
+}
+
+p.balletpage {
+    color: beige;
+    font-size: 18px;
+    line-height: 30px;
+    margin:55px auto;
+}
+
+li.balletpage {
+    color: beige;
+    font-size: 18px;
+    margin-left:55px;
+    margin-bottom:10px;
+    margin-top:10px;
+    list-style:none;
+}
+
+img.balletpage {
+    width:100%;
+    display:block;
+    margin: 20px auto;
+}
+
+
+/*about page*/
+#mainabout {
+    margin: 20px;
+    background-color:honeydew;
+}
