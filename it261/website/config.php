@@ -232,6 +232,33 @@ if(defined('DEBUG') && DEBUG)
 }
 
 
+//gallery page
+
+$potter['Philosopher_Stone'] = 'stone_Harry Potter and the Philosopher\'s Stone (1997) is a fantasy novel written by British author 
+J. K. Rowling. It follows Harry Potter, a young wizard who discovers his magical heritage 
+on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry.';
+$potter['The_Chamber_of_Secrets'] = 'secre_Harry Potter and the Chamber of Secrets (1998) follows Harry\'s second year at Hogwarts, during which 
+a series of messages on the walls of the school\'s corridors warn that the "Chamber of Secrets" has been 
+opened and that the "heir of Slytherin" would kill all pupils who do not come from all-magical families.';
+$potter['The_Prisoner_of_Azkaban'] = 'azkab_Harry Potter and the Prisoner of Azkaban (1999) is the third in the Harry Potter series. 
+The book follows Harry Potter, a young wizard, in his third year at Hogwarts School of Witchcraft and Wizardry. 
+Along with friends Ronald Weasley and Hermione Granger, Harry investigates Sirius Black, an escaped prisoner from Azkaban, 
+the wizard prison, believed to be one of Lord Voldemort\'s old allies.';
+$potter['Goblet_of_Fire'] = 'goble_Harry Potter and the Goblet of Fire (2000) is the fourth novel in the Harry Potter series. 
+It follows Harry Potter, a wizard in his fourth year at Hogwarts School of Witchcraft and Wizardry, and the
+ mystery surrounding the entry of Harry\'s name into the Triwizard Tournament, in which he is forced to compete.';
+$potter['Order_of_Phoenix'] = 'phoen_In Harry Potter and the Order of the Phoenix (2003), Harry is due to start his fifth year at Hogwarts School of 
+Witchcraft and Wizardry. He is desperate to get back to school and find out why his friends Ron and Hermione have been so secretive 
+all summer. However, what Harry is about to discover in his new year at Hogwarts will turn his world upside down.';
+$potter['The_Half-Blood_Prince'] = 'blood_Harry Potter and the Half-Blood Prince (2005) is set during Harry Potter\'s sixth year at Hogwarts. The novel 
+explores the past of the boy wizard\'s nemesis, Lord Voldemort, and Harry\'s preparations for the final battle against Voldemort 
+alongside his headmaster and mentor Albus Dumbledore.';
+$potter['The_Deathly_Hallows'] = 'death_Harry Potter and the Deathly Hallows (2009) is the last book of the saga. Readers beware: the brilliant, 
+breathtaking conclusion to J.K. Rowling\'s spellbinding series is not for the faint of heart--such revelations, battles, and betrayals 
+await in Harry Potter and the Deathly Hallows that no fan will make it to the end unscathed.';
+// $name                     $image
+// $key                      $value
+
 
 
 
