@@ -24,7 +24,7 @@
                     <li><a href="website/calculator-days-errors-sticky.php">Calculator</a></li>
                     <li><a href="website/contact.php">Email</a></li>
                     <li><a href="website/gallery.php">Gallery</a></li>
-                    <li><a href="">Database</a></li>
+                    <li><a href="website/project.php">Database</a></li>
                 </ul>
             </nav>
         </div> <!--end header-inner-->
@@ -102,6 +102,12 @@
         <li><a href="weeks/week8/people-view.php">people-view.php</a></li>
         <li><a href="weeks/week8/config.php">config.php</a></li>
         <li><a href="weeks/week8/credentials.php">credentials.php</a></li>
+    </ul>
+    <h3>Week 9:</h3>
+    <ul>
+        <li><a href="weeks/week9/register.php">register.php</a></li>
+        <li><a href="weeks/week9/login.php">login.php</a></li>
+        <li><a href="weeks/week9/index.php">index.php</a></li>
     </ul>
 </aside>
 
