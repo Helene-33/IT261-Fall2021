@@ -39,16 +39,16 @@ h1 {
 }
 
 .indexp {
-    float: left;
+   text-align: center;
     font-size:25px;
-    letter-spacing: 6px;
+    letter-spacing: 5px;
     color: darkolivegreen;
-    margin-bottom:20px;
 }
 
-#wrapper img {
-    float: right;
-
+.indexsuccess {
+    width: 70%;
+    display:block;
+    margin: 20px auto;
 }
 
 .block {

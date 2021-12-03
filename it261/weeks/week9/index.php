@@ -49,7 +49,7 @@ if(isset($_SESSION['username'])) : ?>
 <div id="wrapper">
 <h1>Welcome <?php echo $_SESSION ['username'] ;?> to the home page!</h1>
 <p class="indexp">We are super excited to have you on our site!</p>
-<img src="images/happygif.gif" alt="Happy gif">
+<img class="indexsuccess" src="images/happygif.gif" alt="Happy gif">
 
 <!-- Your footer will be place at the bottom of the page -->
 </div> <!-- end wrapper--> 
