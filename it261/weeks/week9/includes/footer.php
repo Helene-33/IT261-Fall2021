@@ -7,6 +7,3 @@
 <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https://www.ellencodes.com/it261/weeks/week9/index.php" target="_blank">CSS Validation</a></li>
 </ul>
 </footer>
-
-</body>
-</html>
