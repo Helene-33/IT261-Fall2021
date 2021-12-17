@@ -180,7 +180,7 @@ if(isset(
     $_POST['privacy']
     )){
     
-$to = 'helene.liobard33@gmail.com';
+$to = 'szemeo@mystudentswa.com';
 $subject = 'Test Email,' .date('m/d/y');
 $body = '
     This form is from: '.$name.' '.PHP_EOL.'
