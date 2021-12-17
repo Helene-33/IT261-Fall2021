@@ -1,0 +1,435 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    width:100%;
+    height:100%;
+}
+
+body {
+    background-color: #e4d1f3;
+}
+
+header {
+    background:#BD81BF;
+    height:70px;
+    position:relative;
+}
+
+/*.success {
+    float:left;
+    margin-top:10px;
+    padding:10px;
+    border:1px solid #18305C;
+}*/
+
+.welcome-logout {
+    float:right;
+    margin-top:-15px;
+    padding:10px;
+    border:1px solid #18305C;
+}
+
+#wrapper {
+    clear:both;
+    width:700px;
+    margin:50px auto;
+}
+
+.fieldlogin {
+    padding: 20px 50px;
+    font-size: 20px;
+    display:block;
+    margin: 10px auto;
+}
+
+.btn {
+    background-color: #87cf4ce7;
+    font-size: 16px;
+    border-radius:8px;
+    padding: 14px 40px;
+    display:inline-block;
+    margin:10px 22px;
+}
+
+h1 {
+    text-align:center;
+    margin:30px 0;
+    color:#18305C;
+}
+
+.block {
+    display:block;
+    text-align:center;
+    font-style: italic;
+}
+
+h3 {
+    text-align:center;
+    margin:10px 0;
+}
+
+.error {
+    color:rgba(255, 0, 0, 0.514);
+    font-style:italic;
+    margin:10px 0;
+    font-size: 25px;
+}
+
+.footer {
+    color:#18305C;
+    clear:both;
+    position:relative;
+    height:50px;
+    /*margin-top:-200px;*/
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    bottom:0;
+}
+
+.footer ul {
+    margin:0 auto;
+    width: 960px;
+}
+
+.footer li {
+    float:left;
+    margin-right:30px;
+    list-style-type:none;
+}
+
+.footer a {
+    text-decoration:none;
+    color:#18305C;
+}
+
+
+/*form styles */
+
+label {
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input {
+    display:block;
+    width:80%;
+    margin:10px auto;
+    padding:12px 20px;
+    border:2px solid #18305C;
+    border-radius:6px;
+    background-color: #D4B8E9;
+}
+
+fieldset {
+    padding:10px;
+}
+
+form {
+    width:500px;
+    margin:0 auto;
+}
+
+
+/*nav style*/
+nav {
+    list-style:none;
+    clear:both;
+    position:absolute;
+    height:50px;
+    bottom:0;
+}
+
+nav ul {
+    font-size:22px;
+    display:inline-block;
+}
+
+nav li {
+    list-style-type: none;
+    display:inline;
+    width:900px;
+    margin:0 auto;
+}
+
+nav a {
+    text-decoration:none;
+    color:whitesmoke;
+    letter-spacing: 5px;
+    display:inline-block;
+    padding:20px;
+}
+
+
+/*home page*/
+#wrapperhome {
+    float:right;
+    width:75%;
+    margin:10px 20px;
+}
+
+h1.welcomepage {
+    color:#18305C;
+}
+
+.indexp {
+    font-size:25px;
+    letter-spacing: 5px;
+    color: darkolivegreen;
+    text-align: center;
+ }
+ 
+.indexsuccess {
+     width: 70%;
+     display:block;
+     margin: 20px auto;
+ }
+
+aside {
+    width:15%;
+    float: left;
+    background:#FFE7EA;
+    height: auto;
+    margin:10px 20px;
+    padding:15px;
+}
+
+.imgaside {
+    width: 200px;
+	height: 200px;
+	border-radius:20%;
+    margin: 5px;
+}
+
+h2.homeaside {
+    margin-top:15px;
+    color:rgb(102, 101, 101);
+}
+
+p.homeaside {
+    margin-top:15px;
+    line-height: 30px;
+    color:darkslategray;
+}
+
+
+
+/*contact page*/
+main.contact{
+    width:150%;
+    float:left;    
+    display:block;
+    margin-left:-15%;
+}
+
+h3.contact {
+    font-size:25px;
+    letter-spacing: 5px;
+    color: darkolivegreen;
+    text-align:left;
+    width:100%;
+}
+
+p.contact {
+    font-size:20px;
+    color:#18305C;
+    text-align: center;
+    margin:25px;
+}
+
+img.contact{
+    width: 90%;
+    display:block;
+    margin: 20px auto;
+}
+
+
+
+/*contact form*/
+.contacterror {
+    display:block;
+    color: indianred;
+    font-size:1.1em;
+    margin:5px auto;
+    padding:7px;
+    padding-bottom:15px;
+    width:400px;
+    font-style: italic;
+}
+
+form ul {
+    margin-left:10px;
+    margin-bottom:10px;
+    list-style-type:none;
+}
+
+input[type=submit] {
+    font-size: 20px;
+    color:#2e5677;
+    display:block;
+    padding:5px; 
+    background-color:rgb(245, 171, 142); 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.reset {
+    text-align:right;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/*about page*/
+p.about {
+    width:80%;
+    line-height:30px;
+    color:darkslategray;
+    font-size:17px;
+}
+
+img.about{
+    width:50%;
+}
+
+
+/*switch page*/
+img.daily {
+    float:left;
+    width: 90%;
+    margin: 15px;
+}
+
+p.daily{
+    float:right;
+    margin: 10px;
+    font-size: 14px;
+    font-family: Verdana, Helvetica, sans-serif;
+    line-height: 26px;
+}
+
+main.daily {
+    float:right;
+    width:75%;
+    margin:0 1.5%;
+}
+
+aside.daily {
+    width:15%;
+    float: left;
+    background:#FFE7EA;
+    margin:0 1.5%;
+    height: auto;
+    padding:15px;
+}
+
+h2.daily, h3.daily {
+    margin: 10px;
+}
+
+li.daily {
+    list-style-type: none;
+    margin-left:30px;
+}
+
+a.daily {
+    text-decoration:none;
+    font-size: 14px;
+    font-family: Verdana, Helvetica, sans-serif;
+    line-height: 28px;
+}
+
+
+/*list page*/
+#triplist {
+    width:90%;
+    height:auto;
+    margin:20px auto;
+    padding: 10px;
+}
+
+h2.triplist {
+    color:#FF5903;;
+    text-align: center;
+    font-size:25px;
+    margin:15px auto;
+}
+
+p.triplist {
+    color: #031136;
+    font-size: 18px;
+    text-align:center;
+    line-height: 30px;
+    margin:65px auto;
+}
+
+li.triplist {
+    color: #031136;
+    font-size: 18px;
+    margin-left:55px;
+    margin-bottom:10px;
+    margin-top:10px;
+    list-style:none;
+}
+
+li.triplistp {
+    color: #031136;
+    font-size: 20px;
+    list-style:none;
+    margin: 15px auto;
+    text-align: center;
+}
+
+hr.triplist {
+    border-top:2px dashed #FD6B6C;
+}
+
+/*list-view page*/
+#listview {
+    width: 70%;
+    height:auto;
+    float:right;
+    margin:20px;
+    padding: 10px;
+}
+
+aside.listview {
+    width: 20%;
+    height:auto;
+    float:left;
+    background: beige;
+    margin:20px;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+p.listview {
+    color: #031136;
+    font-size: 18px;
+    line-height: 30px;
+    margin:55px auto;
+}
+
+li.listview {
+    color: #031136;
+    font-size: 18px;
+    margin-left:55px;
+    margin-bottom:10px;
+    margin-top:10px;
+    list-style:none;
+}
+
+img.listview {
+    width:100%;
+    display:block;
+    margin: 20px auto;
+}
